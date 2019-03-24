@@ -14,9 +14,9 @@ const outerBoxenOptions = {
 }
 
 const headerBoxenOptions = {
-  padding: 0, 
+  padding: 0,
   margin: 0,
-  borderStyle: 'double', 
+  borderStyle: 'double',
   borderColor: 'grey'
 }
 
@@ -25,7 +25,7 @@ const data = {
   name: chalk.white(' Rick Buitrago'),
   handle: chalk.white('deekattax'),
   bio: chalk.gray('Scaling Java/JS apps, Team Building with Agile '),
-  work: chalk.white('\u2615 Lead Developer at Endava'),
+  work: chalk.white('\u2615 Senior Software Engineer'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('deekattax'),
   github: chalk.gray('https://github.com/') + chalk.green('rbuitragoc'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('rbuitrago'),
