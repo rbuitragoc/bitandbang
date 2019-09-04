@@ -24,16 +24,18 @@ const headerBoxenOptions = {
 const data = {
   name: chalk.white(' Rick Buitrago'),
   handle: chalk.white('deekattax'),
-  bio: chalk.gray('Scaling apps with Java/JS, Building Teams with Agile '),
-  work: chalk.white('\u2615 Senior Software Engineer'),
+  bio: chalk.gray('Scaling solutions with Java/JS, Building Teams with Agile  '),
+  work: chalk.green('\u2B22 ') + chalk.white('\u2615 ') + chalk.white('Software Development Leader'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('deekattax'),
   github: chalk.gray('https://github.com/') + chalk.green('rbuitragoc'),
+  jsonresume: chalk.gray('https://registry.jsonresume.org/') + chalk.red('rbuitragoc'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('rbuitrago'),
   mobile: chalk.gray('+57 ') + chalk.yellow('300 2691858'),
   npx: chalk.red('npx') + ' ' + chalk.white('deekattax'),
   labelWork: chalk.white.bold('         Work:'),
   labelTwitter: chalk.white.bold('      Twitter:'),
   labelGitHub: chalk.white.bold('       GitHub:'),
+  labelJsonResume: chalk.white.bold('   JsonResume:'),
   labelLinkedIn: chalk.white.bold('     LinkedIn:'),
   labelMobile: chalk.white.bold('       Mobile:'),
   labelCard: chalk.white.bold('         Card:')
@@ -45,6 +47,7 @@ const heading = boxen(`${data.name} (${data.handle}) ${newline} ${data.bio}`, he
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
+const jsonresumering = `${data.labelJsonResume}  ${data.jsonresume}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const mobileing = `${data.labelMobile}  ${data.mobile}`
 const carding = `${data.labelCard}  ${data.npx}`
@@ -55,6 +58,7 @@ const output = heading + // data.name + data.handle
                working + newline + // data.labelWork + data.work
                twittering + newline + // data.labelTwitter + data.twitter
                githubing + newline + // data.labelGitHub + data.github
+               jsonresumering + newline + // data.labelJsonResume + data.jsonresume
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                mobileing + newline + newline + // data.labelMobile + data.mobile
                carding // data.labelCard + data.npx
