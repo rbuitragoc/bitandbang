@@ -1,6 +1,6 @@
 {
   "name": "deekattax",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A personal card for Rick Buitrago (@deekattax)",
   "main": "/bin/card.js",
   "bin": {
